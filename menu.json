@@ -1,0 +1,8 @@
+[
+  {
+    "text": "Shelly Control",
+    "type": "status",
+    "page": "status.php",
+    "section": "inputoutput"
+  }
+]
