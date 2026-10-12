@@ -1,7 +1,0 @@
-{
-  "name": "fpp-shelly",
-  "author": "Dein Name",
-  "description": "Steuerung von Shelly Smart Home Geräten (Ein/Aus/Toggle) direkt aus FPP Playlists und Commands.",
-  "version": "1.0.0",
-  "fppMinVersion": "10.0"
-}
