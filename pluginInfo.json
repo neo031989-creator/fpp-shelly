@@ -1,12 +1,31 @@
 {
-  "name": "fpp-shelly",
-  "author": "Dein Name",
-  "description": "Steuerung von Shelly Smart Home Geräten (Ein/Aus/Toggle) direkt aus FPP Playlists und Commands.",
-  "version": "1.0.0",
-  "fppMinVersion": "10.0",
-  "fppMaxVersion": "0.0.0",
+  "repoName": "fpp-shelly",
+  "name": "Shelly Control",
+  "author": "neo031989-creator",
+  "description": "Manage and control Shelly devices from Falcon Player (FPP).",
   "homeURL": "https://github.com/neo031989-creator/fpp-shelly",
-  "bugURL": "https://github.com/neo031989-creator/fpp-shelly/issues",
   "srcURL": "https://github.com/neo031989-creator/fpp-shelly.git",
-  "libname": "libfpp-shelly.so"
+  "bugURL": "https://github.com/neo031989-creator/fpp-shelly/issues",
+  "allowUpdates": 1,
+  "releaseNotesStyle": "gitHistory",
+  "privacy": {
+    "summary": "Controls Shelly devices on the local network.",
+    "sends": [],
+    "collects": [],
+    "sensors": [],
+    "remoteAccess": "none",
+    "systemChanges": [
+      "Installs plugin files and registers FPP commands"
+    ],
+    "closedCode": false,
+    "other": "Shelly devices are contacted directly over the local network."
+  },
+  "versions": [
+    {
+      "minFPPVersion": "10.0",
+      "maxFPPVersion": "0",
+      "branch": "main",
+      "sha": ""
+    }
+  ]
 }
